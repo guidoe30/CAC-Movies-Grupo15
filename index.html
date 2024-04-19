@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CAC MOVIES</title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/estilo.css" />
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Animacion -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <header class="px-4 py-2 bg-primary">
+      <!-- menú principal -->
+      <nav class="navbar d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-film"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm4 0v6h8V1zm8 8H4v6h8zM1 1v2h2V1zm2 3H1v2h2zM1 7v2h2V7zm2 3H1v2h2zm-2 3v2h2v-2zM15 1h-2v2h2zm-2 3v2h2V4zm2 3h-2v2h2zm-2 3v2h2v-2zm2 3h-2v2h2z"
+            />
+          </svg>
+          <span class="navbar-brand text-white">CAC MOVIES</span>
+        </div>
+        <div class="link">
+          <a href="#" class="navbar-brand text-white">Tendencias</a>
+          <a href="#" class="navbar-brand text-white">Registrarse</a>
+          <button type="button" class="btn btn-dark">
+            <a href="#" class="text-decoration-none text-white"
+              >Iniciar Sesion</a
+            >
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- Banner -->
+      <section class="d-flex">
+        <div
+          id="card-banner"
+          class="card-banner-fluid text-white align-content-center text-center"
+        >
+          <h1>Películas y series ilimitadas<br />en un solo lugar</h1>
+          <h2>Disfruta donde quieras.<br />Cancela en cualquier momento.</h2>
+          <button type="button" class="btn btn-primary">
+            <a href="#" class="text-decoration-none text-white text-uppercase"
+              >Registrarse</a
+            >
+          </button>
+        </div>
+      </section>
+
+      <!-- Buscador -->
+      <section class="buscador container-fluid">
+        <h2 class="search-title">¿Qué estas buscando para ver?</h2>
+        <input type="search" class="search" placeholder="Buscar..." />
+        <button type="button" class="btn btn-primary">
+          <a href="#" class="text-decoration-none text-white">Buscar</a>
+        </button>
+      </section>
+      <hr />
+
+      <!-- Tendencias -->
+      <section class="container-fluid">
+        <h2 class="tendencia-title">Las tendencias de hoy</h2>
+        <div class="peliculas"></div>
+      </section>
+      <!-- Las mas aclamadas -->
+    </main>
+
+    <!-- Footer -->
+    <footer></footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
