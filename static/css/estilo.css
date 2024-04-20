@@ -21,8 +21,8 @@
   justify-content: center;
 }
 
-.bg-banner {
-  background-image: url('static/images/banner.jpg');
+#card-banner {
+  background-image: url(../images/banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
