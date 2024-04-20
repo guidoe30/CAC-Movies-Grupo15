@@ -20,8 +20,9 @@
   padding-bottom: 4rem;
   justify-content: center;
 }
-#card-banner {
-  background-image: url(/assets/img/ai-generated-8697246_1920.jpg);
+
+.bg-banner {
+  background-image: url('/static/images/banner.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
